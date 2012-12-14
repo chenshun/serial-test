@@ -1,0 +1,31 @@
+{
+  "name": "serial-test",
+  "version": "0.0.1",
+  "description": "serial test program base on node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guanbo/serial-test.git"
+  },
+  "keywords": [
+    "serial",
+    "test",
+    "node"
+  ],
+  "author": {
+  	"name": "guanbo",
+		"email": "guanbo2002@gmail.com"
+  },
+  "dependencies": {
+    "serialport": ">= 1.0.8"
+  },
+  "devDependencies": {
+		"mocha": "*",
+		"should": "*"
+  },
+	"engines": { "node": ">= 0.8.12" },
+	"license": "BSD"
+}
