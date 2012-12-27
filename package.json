@@ -1,0 +1,25 @@
+{
+  "name": "serial-test",
+  "version": "0.0.1",
+  "description": "test project for inventory-collector device",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+	"dependencies": {
+		"serialport": ">=1.0.8",
+		"mocha": "*"
+	},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guanbo/serial-test.git"
+  },
+  "keywords": [
+    "serial",
+    "inventory",
+    "dtu"
+  ],
+  "author": "guanbo",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
